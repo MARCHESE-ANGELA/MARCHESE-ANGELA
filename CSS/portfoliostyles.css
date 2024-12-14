@@ -1,0 +1,180 @@
+#mylogo {
+  width: 190px;
+}
+
+
+.about-section {
+  padding: 50px 20px; 
+  text-align: center; 
+  background-color: #fce4c2; 
+}
+
+.about-section h1 {
+  font-size: 2em;
+  color: #7e0e3d; 
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 1em;
+  line-height: 1.6; 
+  margin: 20px auto;
+  color: #333; 
+  max-width: 800px; 
+}
+
+#AngelaPic {
+  text-align: center;
+  margin-top: 5px; /
+}
+
+#AngelaPic img {
+  width: 230px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+html, body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+table th {
+  text-align: left;
+  padding-right: 20px;
+}
+
+table td {
+  text-align: left;
+}
+
+
+body {
+  background: #fce4c2;
+  font-family: Helvetica Neue, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: left;
+  list-style: none;
+  padding: 10px;
+  background-color: #7e0e3d;
+  margin: 0;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: auto;
+  font-size: 12px;
+}
+
+#sidebar1 {
+  flex: 1 0 40%;
+}
+
+.social-link:link,
+.social-link:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+.social-link:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.social-link:active {
+  color: #75084f;
+}
+
+/* tablet - 800px */
+@media screen and (max-width: 800px) {
+  #header {
+    height: 50px;
+  }
+
+  a:link {
+    padding: 10px 15px;
+    color: #fff;
+  }
+
+  #main {
+    flex: 1 0 60%;
+  }
+
+  #sidebar1 {
+    flex: 1 0 40%;
+  }
+}
+
+/* mobile - 600px */
+@media screen and (max-width: 600px) {
+  #header {
+    height: 100px;
+  }
+
+  ul {
+    display: block;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  #main {
+    flex: 1 0 100%;
+  }
+
+  #sidebar1 {
+    flex: 1 0 100%;
+  }
+}

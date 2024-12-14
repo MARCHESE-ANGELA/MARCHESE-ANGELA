@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./CSS/portfoliostyles.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Verdana&display=swap" rel="stylesheet">
+
+    <style>  
+        
+        #mylogo img {
+            width: 180px;
+        }
+
+        ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 10px;
+            background-color: #7e0e3d;
+            margin: 0;
+        }
+
+        ul li {
+            margin: 0 15px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        ul li a:hover {
+            text-decoration: underline;
+        }
+
+
+        body {
+            background: #fce4c2;
+            font-family: Helvetica Neue, Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 15px;
+        }
+        
+ 
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="mylogo">
+            <img src= "Images/UDSLogo.png"
+        </div>
+    </header>
+        
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Turning ideas into impactful designs.</h1>
+        
+        <section style="position: relative; text-align: center;">
+            <img src="Images/Frame.png"
+                 alt="Decorative frame" 
+                 style="width: 80%; height: 600px;">
+            <p style="position: absolute; 
+                      top: 50%; 
+                      left: 50%; 
+                      transform: translate(-50%, -50%); 
+                      color: white; 
+                      font-size: 1.5em; 
+                      font-weight: bold;">
+                Welcome to UNDERGROUND Design Studio by Angela Marchese<br>
+                Specializing in Brand and Graphic Design.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2024 Underground Design Studio • All rights reserved.
+    </footer>
+</body>
+</html>

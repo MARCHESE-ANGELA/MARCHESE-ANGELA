@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/portfoliostyles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Verdana&display=swap" rel="stylesheet">
+
+    <style>
+
+        #mylogo img {
+            width: 180px;
+        }
+
+    
+        ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 10px;
+            background-color: #7e0e3d;
+            margin: 0;
+        }
+
+        ul li {
+            margin: 0 15px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        ul li a:hover {
+            text-decoration: underline;
+        }
+
+    
+        h1 {
+            text-align: left;
+            font-size: 24px;
+            color: #000000;
+            margin-top: 20px;
+        }
+
+       
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin: 20px auto;
+            max-width: 1200px;
+        }
+
+        .gallery img {
+            max-width: 200px;
+            height: auto;
+            border-radius: 5px;
+            transition: transform 0.3s ease; 
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05); 
+        }
+    
+        body {
+            background: #fce4c2;
+            font-family: "Helvetica Neue", Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 15px;
+        }
+      
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <div id="mylogo">
+            <img src="Images/UDSLogo.png" 
+                 alt="Underground Design Studio Logo">
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    
+    <main>
+            <h1>Design Work</h1>
+        <section id="about" class="about-section">
+            <div class="container">
+            </div>
+        </section>
+
+        <!-- Gallery Section 1 -->
+        <div class="gallery">
+            <a href="Images/WildPoster.jpg" target="_blank">
+                <img src="Images/WildPoster.jpg" alt="Wild Poster">
+            </a>
+            <a href="Images/CoffeeMock.jpg" target="_blank">
+                <img src="Images/CoffeeMock.jpg" alt="Coffee Mock">
+            </a>
+            <a href="Images/NeoValentinesDay.png" target="_blank">
+                <img src="Images/NeoValentinesDay.png" alt="Valentine's Day Menu">
+            </a>
+            <a href="Images/poster3.png" target="_blank">
+                <img src="Images/poster3.png" alt="Poster 3">
+            </a>
+        </div>
+    
+        <div class="gallery">
+            <a href="Images/TagMock.png" target="_blank">
+                <img src="Images/TagMock.png" alt="Tag Mock">
+            </a>
+            <a href="Images/ToteBagMock.jpg" target="_blank">
+                <img src="Images/ToteBagMock.jpg" alt="Tote Bag Mock">
+            </a>
+            <a href="Images/LanyardMockup.jpg" target="_blank">
+                <img src="Images/LanyardMockup.jpg" alt="Lanyard Mockup">
+            </a>
+            <a href="Images/PastryMock.jpg" target="_blank">
+                <img src="Images/PastryMock.jpg" alt="Pastry Mock">
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2024 Underground Design Studio • All rights reserved.
+    </footer>
+</body>
+</html>
